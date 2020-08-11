@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MantisBT</string>
+    <string name="title_activity_main">MantisBT</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Ticket</string>
+    <string name="title_notifications">Utilisateur</string>
+    <string name="title_addissue">Ajouter ticket</string>
+    <string name="Summary">Summary</string>
+    <string name="date_maj">jj/mm/aaaa</string>
+    <string name="project_name">Project name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ANDRANA</string>
+
+    <string name="prompt">Choisir</string>
+
+
+    <string-array name="priorité_arrays">
+        <item>aucune</item>
+        <item>basse</item>
+        <item>normale</item>
+        <item>élevée</item>
+        <item>urgente</item>
+        <item>immédiate</item>
+    </string-array>
+
+    <string-array name="reproductibilite_arrays">
+        <item>toujours</item>
+        <item>quelques fois</item>
+        <item>aléatoire</item>
+        <item>n a pas essayé</item>
+        <item>impossible aà reproduire </item>
+        <item>sans objet</item>
+    </string-array>
+
+
+    <string-array name="impact_arrays">
+        <item>fonctionnalité</item>
+        <item>simple</item>
+        <item>texte</item>
+        <item>cosmétique</item>
+        <item>mineur</item>
+        <item>majeur</item>
+        <item>critique</item>
+        <item>bloquant</item>
+    </string-array>
+
+
+</resources>

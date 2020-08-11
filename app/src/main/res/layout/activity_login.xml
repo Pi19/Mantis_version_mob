@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/logo_mantis"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:src="@drawable/icon_mantis"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="251dp"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/ic_action_userlogin"
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/user_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/authentifier"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logo_mantis"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="83dp"
+        android:background="#1E6E9D"
+        android:text="Authentifier" />
+
+</RelativeLayout>
